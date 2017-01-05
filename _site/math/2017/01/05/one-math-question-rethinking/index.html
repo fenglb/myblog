@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>On math question rethinking</title>
+    <link ref="shortcut icon" href="/favicon.ico">
+    <meta name="author" content="Liubin Feng | 冯柳宾" />
+    <meta name="description" content="">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/media/css/simple-grid.css">
+    <link rel="stylesheet" href="/media/css/highlight.css">
+    
+        <!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$']],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        },
+        messageStyle: "none",
+        "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], scale: 200,}
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+</head>
+
+  <body>
+      <div class="container">
+        <nav>
+<span><a title="home page" class="active" href="/">home</a></span>
+<span><a title="blog page" class="" href="/blog/">blog</a></span>
+<span><a title="about" class="" href="/about/">about</a></span>
+<span><a title="categories" class="" href="/categories/">categories</a></span>
+<span><a title="links" class="" href="/links/">links</a></span>
+</nav>
+<hr>
+
+        <div class="post">
+<div class="row">
+    <div class="col-9">
+  <header class="post-header">
+    <h1>On math question rethinking</h1>
+    <p class="meta">Jan 5, 2017</p>
+  </header>
+
+  <article class="post-content">
+  <p>以下是一道初中生的几何数学题目：</p>
+
+<p><img src="/media/image/ex0.png" alt="geometry" /></p>
+
+<p>如图中$\Delta BAC$和$\Delta DBC$是等腰三角形，$AB=AC, BC=BD$，并且其中$\angle BAC + \angle DBC=120^{\circ}$，求$\angle BDA$的角度？</p>
+
+<p>在一次“安全讲座”上一位同仁让我做这个题目，比较直观的辅助线就是通过A做垂直于BD于D’点。这样子就可以通过直角三角形$\angle AD’D$的关系求出这个角度了。</p>
+
+<p><img src="/media/image/ex1.png" alt="geometry1" /></p>
+
+<p>但是同仁给我列出下面这样子的辅助线，做一个等边三角形$\Delta AC’B$，然后证明三角形$\Delta ABD$和三角形$\Delta C’BC$是全等三角形，求$\angle BDA$变成求$\angle BCC’$的角度。这个方法比较简单和直观求出这个角度的数值。但是可以想象出这样子的辅助线确不是很容易的一件事情，或者说只能是灵机一动的结果，不是可求得的。</p>
+
+<p><img src="/media/image/ex2.png" alt="geometry1" /></p>
+
+<p>当然对于做题，还有好几种取巧的方法，如果是考试题目，假设这个画图没有问题，可以直接拿角度仪量一下这个角度；当然你也可以带入特殊角度来求解，比如假设$\angle BAC = 90^{\circ}$和$\angle DBC = 30^{\circ}$这样子，然后算数求解。也算一种取巧的方法。</p>
+
+<p>这些方法都可以给出答案，有比较笨拙和比较灵巧的办法，典型的还有“冯 诺依曼的火车苍蝇题”，还有高斯的1加到100的故事。至于启示，就不言而喻了。</p>
+
+  </article>
+  </div>
+</div>
+</div>
+
+        <hr>
+        <footer class="site-footer">
+    <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2016 by <a href="http://liubin.name">Liubin Feng</a></small></p>
+</footer>
+
+      </div>
+  </body>
+</html>

@@ -5,24 +5,80 @@
     <description></description>
     <link>http://liubin.name/</link>
     <atom:link href="http://liubin.name/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 May 2016 14:21:28 +0800</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 14:21:28 +0800</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Thu, 05 Jan 2017 12:17:59 +0800</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 12:17:59 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>On math question rethinking</title>
+        <description>&lt;p&gt;以下是一道初中生的几何数学题目：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/image/ex0.png&quot; alt=&quot;geometry&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如图中$\Delta BAC$和$\Delta DBC$是等腰三角形，$AB=AC, BC=BD$，并且其中$\angle BAC + \angle DBC=120^{\circ}$，求$\angle BDA$的角度？&lt;/p&gt;
+
+&lt;p&gt;在一次“安全讲座”上一位同仁让我做这个题目，比较直观的辅助线就是通过A做垂直于BD于D’点。这样子就可以通过直角三角形$\angle AD’D$的关系求出这个角度了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/image/ex1.png&quot; alt=&quot;geometry1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;但是同仁给我列出下面这样子的辅助线，做一个等边三角形$\Delta AC’B$，然后证明三角形$\Delta ABD$和三角形$\Delta C’BC$是全等三角形，求$\angle BDA$变成求$\angle BCC’$的角度。这个方法比较简单和直观求出这个角度的数值。但是可以想象出这样子的辅助线确不是很容易的一件事情，或者说只能是灵机一动的结果，不是可求得的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/image/ex2.png&quot; alt=&quot;geometry1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然对于做题，还有好几种取巧的方法，如果是考试题目，假设这个画图没有问题，可以直接拿角度仪量一下这个角度；当然你也可以带入特殊角度来求解，比如假设$\angle BAC = 90^{\circ}$和$\angle DBC = 30^{\circ}$这样子，然后算数求解。也算一种取巧的方法。&lt;/p&gt;
+
+&lt;p&gt;这些方法都可以给出答案，有比较笨拙和比较灵巧的办法，典型的还有“冯 诺依曼的火车苍蝇题”，还有高斯的1加到100的故事。至于启示，就不言而喻了。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Jan 2017 00:00:00 +0800</pubDate>
+        <link>http://liubin.name/math/2017/01/05/one-math-question-rethinking/</link>
+        <guid isPermaLink="true">http://liubin.name/math/2017/01/05/one-math-question-rethinking/</guid>
+        
+        
+        <category>math</category>
+        
+      </item>
+    
+      <item>
+        <title>Enable MathJax to Jekyll!</title>
+        <description>&lt;p&gt;Because my post will has math, the functions display is the important function in Jekyll Blog. Yell, there are a lot of tutorial online, I choose the MathJax.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;J(\theta) = \frac 1 2 \sum_{i=1}^m (h_\theta(x^{(i)})-y^{(i)})^2&lt;/script&gt;
+
+&lt;p&gt;This is the test demo.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +0800</pubDate>
+        <link>http://liubin.name/jekyll/mathjax/2017/01/04/enable-mathjax-to-jekyll/</link>
+        <guid isPermaLink="true">http://liubin.name/jekyll/mathjax/2017/01/04/enable-mathjax-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>MathJax</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;这个是Jekyll build给出的例子，从今年5月份构建这个网站，买了这个域名以来，没有更新一篇博文。期间，修改过好几次博客的页面格式，但是对于页面内容就如鲠在喉，想写但是又写不出来，实在看着难受！&lt;/p&gt;
+
+&lt;p&gt;保留Jekyll post demo，也是提醒自己要好好总结日常的工作，学习。不仅作为学习历程的记录，同时也是一种知识的梳理和分享！&lt;/p&gt;
+&lt;div class=&quot;meta&quot;&gt;Update Dec 02, 2016&lt;/div&gt;
 
 </description>
         <pubDate>Thu, 19 May 2016 21:04:22 +0800</pubDate>

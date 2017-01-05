@@ -9,4 +9,3 @@ github_username:  fenglb
 # Build settings
 markdown: kramdown
 permalink: pretty
-destination: /var/www/liubin.name/

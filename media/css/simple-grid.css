@@ -1,0 +1,279 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+@font-face {
+      font-family: 'Galdeano';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Galdeano Regular'), local('Galdeano-Regular'),
+      url('../fonts/galdeano-v6-latin-regular.woff2') format('woff2'),
+      url('../fonts/galdeano-v6-latin-regular.woff') format('woff');
+}
+@font-face {
+      font-family: 'Cuprum';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Cuprum'), local('Cuprum-Regular'),
+      url('../fonts/cuprum-v7-latin-regular.woff2') format('woff2'),
+      url('../fonts/cuprum-v7-latin-regular.woff') format('woff');
+}
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  font-family: "Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+  color: #222;
+  background: #fff url("./paper.png") repeat center top;
+}
+
+/* ROOT FONT STYLES */
+
+* { margin: 0; padding: 0;border:none;outline:none; }
+/* custom define */
+
+a{color: #dd0000;text-decoration:none;}
+a:hover{color: #333333;text-decoration:underline;}
+hr{border-top:1px dashed #505050;border-bottom:1px dashed #f9f9f9;}
+.content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+header{margin:.5em 0;border-bottom: 1px solid #cccccc;}
+.post{padding:.5em 0;}
+.meta{text-align:right;font-size:12px;padding:0em;}
+pre code{
+    margin: 1em 0;
+    line-height:1.6;
+    display:block;
+    overflow:auto;
+}
+blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
+blockquote{margin:1em 0em;padding-left:1.5em;}
+blockquote p{margin:0;padding:.5em 0;}
+li{padding:.2em 0;}
+ol,ul{list-style-position:inside;}
+ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
+code{background-color:#F7F7F7;}
+
+nav{
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    padding-top: 10px;
+}
+nav a {
+    padding:1em 0.2em;
+    text-transform: uppercase;
+}
+
+h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
+h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
+h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
+h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.1em;color:#333;}
+h5{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#444;}
+h6{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:0.875em;color:#555;}
+pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
+/* custom define */
+
+/* TYPOGRAPHY */
+
+p {
+  font-weight: 200;
+  line-height: 1.8;
+  padding: .5em 0;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}

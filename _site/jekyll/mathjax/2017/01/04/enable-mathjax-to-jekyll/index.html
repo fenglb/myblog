@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Liubin Feng | 冯柳宾</title>
+    <title>Enable MathJax to Jekyll!</title>
     <link ref="shortcut icon" href="/favicon.ico">
     <meta name="author" content="Liubin Feng | 冯柳宾" />
     <meta name="description" content="">
@@ -12,6 +12,23 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/media/css/simple-grid.css">
     <link rel="stylesheet" href="/media/css/highlight.css">
+    
+        <!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$']],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        },
+        messageStyle: "none",
+        "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], scale: 200,}
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
     
 </head>
 
@@ -27,25 +44,24 @@
 <hr>
 
         <div class="post">
-
+<div class="row">
+    <div class="col-9">
   <header class="post-header">
-    <h1>Liubin Feng | 冯柳宾</h1>
+    <h1>Enable MathJax to Jekyll!</h1>
+    <p class="meta">Jan 4, 2017</p>
   </header>
 
-  <article class="content">
-  <div class="row">
-    <div class="col-9">
-        <p>欢迎您来到冯柳宾的个人主页。这里我主要是会写一些技术博客。主要包括两方面，一方面是关于编程，网页设计还有LInux使用；另一方面是关于核磁共振谱仪（NMR），以及相关NMR应用等。</p>
-        <p>08年就开始接触Linux，最开始也是尝试过Redhat、Fedora、Debian和Ubuntu，时间用得最长的要数Ubuntu，从0904版本开始，现在已经用到1604。编程主要是用Python，还会涉及一点C/C++,界面开发主要是用Qt/PyQt。网页设计主要是利用Django/Python开发后台服务，HTML/CSS/Javascript开发前端，会利用Bootstrap辅助前端开发。</p>
-        <p>对于NMR部分，主要是因为我目前在厦门大学化学化工学院管理NMR谱仪，目前我管理的是3台Bruker的NMR谱仪，所以会分享一些NMR仪器管理和相关的应用。</p>
-    </div>
-    <div class="col-3">
-        <img src="/fenglb.jpg" title="Liubin Feng"/>
-    </div>
-</div>
+  <article class="post-content">
+  <p>Because my post will has math, the functions display is the important function in Jekyll Blog. Yell, there are a lot of tutorial online, I choose the MathJax.</p>
+
+<script type="math/tex; mode=display">J(\theta) = \frac 1 2 \sum_{i=1}^m (h_\theta(x^{(i)})-y^{(i)})^2</script>
+
+<p>This is the test demo.</p>
+
 
   </article>
-
+  </div>
+</div>
 </div>
 
         <hr>
