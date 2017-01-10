@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "On math question rethinking"
+title:  "One math question rethinking"
 date:   2017-01-05
 mathjax: true
-categories: math
+categories: [Life,Featured]
+tags: math
 ---
 
 以下是一道初中生的几何数学题目：

@@ -3,9 +3,17 @@ layout: page
 title: "Categories"
 ---
 
+<p>
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <h3>{{ category_name }}</h3>
+    {% capture post_num %}{{ site.categories[category_name]| size }}{% endcapture %}
+    <a href="#{{category_name}}" title="{{category_name}}" rel="{{post_num}}">{{category_name}}({{post_num}})</a>
+{% endfor %}
+</p>
+
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h3 id="{{category_name}}">{{ category_name }}</h3>
     <ul>
     {% for post in site.categories[category_name] %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>

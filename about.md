@@ -34,3 +34,6 @@ permalink: /about/
 
 又一次更新界面布局，把之前的[Simple Grid](http://www.simplegrid.io)全部用上，同时根据[Yihui Xie](http://yihui.name)的CSS进行修改，使用上在[Yihui Xie](http://yihui.name)使用的字体。
 <div class="meta">Update Jan 03, 2017</div>
+
+在博文加入版权申明，还有规范categories的分类，主要分为【Life，Technology，Featured，NMR，Python，Others】，同时加入tags。
+<div class="meta">Update Jan 05, 2017</div>

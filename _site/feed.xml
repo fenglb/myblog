@@ -5,12 +5,12 @@
     <description></description>
     <link>http://liubin.name/</link>
     <atom:link href="http://liubin.name/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Jan 2017 12:17:59 +0800</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 12:17:59 +0800</lastBuildDate>
+    <pubDate>Thu, 05 Jan 2017 21:29:46 +0800</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 21:29:46 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>On math question rethinking</title>
+        <title>One math question rethinking</title>
         <description>&lt;p&gt;以下是一道初中生的几何数学题目：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/media/image/ex0.png&quot; alt=&quot;geometry&quot; /&gt;&lt;/p&gt;
@@ -30,11 +30,15 @@
 &lt;p&gt;这些方法都可以给出答案，有比较笨拙和比较灵巧的办法，典型的还有“冯 诺依曼的火车苍蝇题”，还有高斯的1加到100的故事。至于启示，就不言而喻了。&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://liubin.name/math/2017/01/05/one-math-question-rethinking/</link>
-        <guid isPermaLink="true">http://liubin.name/math/2017/01/05/one-math-question-rethinking/</guid>
-        
+        <link>http://liubin.name/life/featured/2017/01/05/one-math-question-rethinking/</link>
+        <guid isPermaLink="true">http://liubin.name/life/featured/2017/01/05/one-math-question-rethinking/</guid>
         
         <category>math</category>
+        
+        
+        <category>Life</category>
+        
+        <category>Featured</category>
         
       </item>
     
@@ -48,13 +52,17 @@
 
 </description>
         <pubDate>Wed, 04 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://liubin.name/jekyll/mathjax/2017/01/04/enable-mathjax-to-jekyll/</link>
-        <guid isPermaLink="true">http://liubin.name/jekyll/mathjax/2017/01/04/enable-mathjax-to-jekyll/</guid>
+        <link>http://liubin.name/featured/technology/2017/01/04/enable-mathjax-to-jekyll/</link>
+        <guid isPermaLink="true">http://liubin.name/featured/technology/2017/01/04/enable-mathjax-to-jekyll/</guid>
         
+        <category>mathjax</category>
         
         <category>jekyll</category>
         
-        <category>MathJax</category>
+        
+        <category>Featured</category>
+        
+        <category>Technology</category>
         
       </item>
     
@@ -81,14 +89,18 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;div class=&quot;meta&quot;&gt;Update Dec 02, 2016&lt;/div&gt;
 
 </description>
-        <pubDate>Thu, 19 May 2016 21:04:22 +0800</pubDate>
-        <link>http://liubin.name/jekyll/update/2016/05/19/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://liubin.name/jekyll/update/2016/05/19/welcome-to-jekyll/</guid>
-        
+        <pubDate>Thu, 19 May 2016 00:00:00 +0800</pubDate>
+        <link>http://liubin.name/featured/technology/2016/05/19/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://liubin.name/featured/technology/2016/05/19/welcome-to-jekyll/</guid>
         
         <category>jekyll</category>
         
-        <category>update</category>
+        <category>test</category>
+        
+        
+        <category>Featured</category>
+        
+        <category>Technology</category>
         
       </item>
     
