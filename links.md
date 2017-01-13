@@ -22,7 +22,8 @@ permalink: /links/
 
 ### 人物
 * [E. Kwan](http://www.people.fas.harvard.edu/~ekwan/) 主要关注他的计算NMR研究。[ekwan's github](https://www.github.com/ekwan)
-* [James Keeler](http://www.keeler.ch.am.ac.uk) James Keeler Group[the author of *Unserstanding NMR Spectroscopy*。
+* [James Keeler](http://www-keeler.ch.cam.ac.uk/) James Keeler Group[the author of *Understanding NMR Spectroscopy*。 [youtube的Keeler讲课视频](https://www.youtube.com/playlist?list=PLE20foNk9J6L1dh9X27RaPiaul8_7wrAY)
+* [Malcolm H. Levitt](http://blog.soton.ac.uk/magres/) the author of *Spin Dynamics* and [SpinDynamica](http://www.spindynamica.soton.ac.uk/) spin dynamical simulations software.
 
 ### 学习
 * [Assignment Protein](http://www.protein-nmr.org.uk/solution-nmr/assignment-practise/) ccpnmr的蛋白质指认练习，比较全面的讲解指认过程
