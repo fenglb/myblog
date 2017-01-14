@@ -37,3 +37,6 @@ permalink: /about/
 
 在博文加入版权申明，还有规范categories的分类，主要分为【Life，Technology，Featured，NMR，Python，Others】，同时加入tags。
 <div class="meta">Update Jan 05, 2017</div>
+
+这个域名是2016年5月份在[name.org](https://www.name.org)上买的，刚开始的时候在架设在自己电脑上的，近阶段学校为了配合政府的金砖会议，要整改网站备案问题，我就把这个网站架设到[github](https://github.com/fenglb)。然后看到[Yihui](https://yihui.name)在[Cloudflare](https://www.cloudflare.com)上使用https，我也使用了他们的nameserver，也想在自己的网站上来一个绿色。
+<div class="meta">Update Jan 14, 2017</div>
