@@ -9,6 +9,7 @@ permalink: /links/
 
 ### 工具
 * [nmrshiftdb2](http://nmrshiftdb.nmr.uni-koeln.de) 有机分子核磁数据库
+* [csdb](http://csdb.glycoscience.ru/bacterial/) 细菌糖数据库
 * [monosaccharidedb](http://www.monosaccharidedb.org) 包含776种单糖的数据库
 * [glycosciences](http://www.glycosciences.de) 糖科学，包含多糖结构、核磁和质谱数据库
 * [carbohydrates](https://www.hsls.pitt.edu/obrc/index.php?page=carbohydrates) 包含许多糖科学的相关网站
@@ -32,6 +33,7 @@ permalink: /links/
 * [NMR Operator](http://www.chem.wilkes.edu/~trujillo/) 核磁操作，实验室规则。
 * [How to do research](http://www.ee.cityu.edu.hk/~cqli/htdr/htdr.htm) Miscellaneous Tools on Research. 
 * [Structure Determination Using NMR](http://www.chem.wisc.edu/areas/reich/nmr/) Hans J. Reich Structure Determination Using Spectroscopic Methods.
+* [Structural molecular biology 2017](http://people.mbi.ucla.edu/Lectures/M230B/)
 
 ### NMR课题组和机构
 * [IBS](http://www.ibs.fr) Institut de Biologie Structurale, integrated structural biology. There are several software, like as Dynamo, SculptorCNS, Tensor, Pulse sequence tools [linker](http://www.ibs.fr/research/scientific-output/software/).
