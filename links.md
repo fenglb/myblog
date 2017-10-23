@@ -34,6 +34,8 @@ permalink: /links/
 * [How to do research](http://www.ee.cityu.edu.hk/~cqli/htdr/htdr.htm) Miscellaneous Tools on Research. 
 * [Structure Determination Using NMR](http://www.chem.wisc.edu/areas/reich/nmr/) Hans J. Reich Structure Determination Using Spectroscopic Methods.
 * [Structural molecular biology 2017](http://people.mbi.ucla.edu/Lectures/M230B/)
+* [Spin Dynamics](http://spindynamics.org/Home.php) Theretical and Computational Spin Dynamics Group.
+* [QUAINT](https://quantumcontrol.eu) The Quantum Control Network.
 
 ### NMR课题组和机构
 * [IBS](http://www.ibs.fr) Institut de Biologie Structurale, integrated structural biology. There are several software, like as Dynamo, SculptorCNS, Tensor, Pulse sequence tools [linker](http://www.ibs.fr/research/scientific-output/software/).
