@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,12 @@
     <link ref="shortcut icon" href="/favicon.ico">
     <meta name="author" content="Liubin Feng | 冯柳宾" />
     <meta name="description" content="">
-
+    <!--[if lt IE 9]>
+        <script src="https://awcdn1.ahmad.works/writing/wp-content/themes/writing/js/html5.js"></script>
+    <![endif]-->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/media/css/font.css">
-    <link rel="stylesheet" href="/media/css/simple-grid.css">
+    <link rel="stylesheet" href="/media/css/main.css">
     <script async src="https://use.fontawesome.com/32c3d13def.js"></script>
     <script async src="/media/js/load-typekit.js"></script>
     
@@ -35,43 +37,64 @@ MathJax.Hub.Config({
 </head>
 
   <body>
-      <div class="container">
-        <nav>
-<span><a title="home page" class="active" href="/">home</a></span>
-<span><a title="blog page" class="" href="/blog/">blog</a></span>
-<span><a title="about" class="" href="/about/">about</a></span>
-<span><a title="categories" class="" href="/categories/">categories</a></span>
-<span><a title="links" class="" href="/links/">links</a></span>
-</nav>
-<hr>
+    <!-- start site main container-->
+    <div class="site_main_container">
+        <header class="site_header">
+            <!-- top menu area -->
+<div class="top_menu_wrapper">
+    <div class="container">
+        <div class="top_header_items_holder">
+            <div class="main_menu">
+                <span><a title="home page" class="active" href="/">home</a></span>
+                <span><a title="blog page" class="" href="/blog/">blog</a></span>
+                <span><a title="about" class="" href="/about/">about</a></span>
+                <span><a title="categories" class="" href="/categories/">categories</a></span>
+                <span><a title="links" class="" href="/links/">links</a></span>
+            </div>
+            <div class="header_icons">
+                <a rel="nofollow" target="_blank" href="#" title="Google" class="social_icon_social_google social_icon_facebook">Google</a>
+                <a rel="nofollow" target="_blank" href="#" title="Google" class="social_icon_social_google social_icon_facebook">Google</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- top menu area -->
 
-        <div class="post">
-<div class="row">
-    <div class="col-9">
-  <header class="post-header">
-    <h1>Enable MathJax to Jekyll!</h1>
-    <p class="meta">Jan 4, 2017</p>
-  </header>
-
-  <article class="post-content">
-  <p>Because my post will has math, the functions display is the important function in Jekyll Blog. Yell, there are a lot of tutorial online, I choose the MathJax.</p>
+        </header>
+        <section id="content">
+            <div class="container">
+                <div class="main_content">
+    <div class="blog_post_title">
+        <h1 class="title post_title">
+            Enable MathJax to Jekyll!
+        </h1>
+    </div>
+    <div class="blog_post_meta">
+        <span class="blog_meta_item blog_meta_category">In <a href="" rel="category tag">Image Posts</a></span>
+        <span class="blog_meta_item blog_meta_tag">Tag <a href="" rel="category tag">people</a></span>
+        <span class="blog_meta_item blog_meta_date">Jan 4, 2017</span>
+        <span class="blog_meta_item blog_meta_author"></span>
+    </div>
+    <div class="blog_post_text blog_post_description">
+        <p>Because my post will has math, the functions display is the important function in Jekyll Blog. Yell, there are a lot of tutorial online, I choose the MathJax.</p>
 
 <script type="math/tex; mode=display">J(\theta) = \frac 1 2 \sum_{i=1}^m (h_\theta(x^{(i)})-y^{(i)})^2</script>
 
 <p>This is the test demo.</p>
 
 
-  </article>
-    <p class="right"><small>Published under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a> in categories <a href="http://liubin.name/categories/#Featured">Featured</a>, <a href="http://liubin.name/categories/#Technology">Technology</a> tagged with <a href="http://liubin.name/tags/#mathjax">mathjax</a>, <a href="http://liubin.name/tags/#jekyll">jekyll</a></small></p>
-  </div>
-</div>
+    </div>
 </div>
 
-        <hr>
-        <footer class="right">
-    <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2016 by <a href="http://liubin.name">Liubin Feng</a></small></p>
-</footer>
+            </div>
+        </section>
+        <!-- site footer area -->
+        <footer class="site_footer">
+            <div class="container">
+                    <small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2016 by <a href="http://liubin.name">Liubin Feng</a></small>
 
+            </div>
+        </footer>
       </div>
   </body>
 </html>

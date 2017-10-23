@@ -1,18 +1,19 @@
 ---
 layout: default
 ---
-<div class="post">
-<div class="row">
-    <div class="col-9">
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-    <p class="right"><small>Published under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a> in categories {% for category in page.categories %}<a href="{{site.url}}/categories/#{{category}}">{{ category }}</a>{%unless forloop.last%}, {%endunless%}{%endfor%} tagged with {% for tag in page.tags %}<a href="{{site.url}}/tags/#{{tag}}">{{tag}}</a>{% unless forloop.last %}, {%endunless%}{%endfor%}</small></p>
-  </div>
-</div>
+<div class="main_content">
+    <div class="blog_post_title">
+        <h1 class="title post_title">
+            {{ page.title }}
+        </h1>
+    </div>
+    <div class="blog_post_meta">
+        <span class="blog_meta_item blog_meta_category">In <a href="" rel="category tag">Image Posts</a></span>
+        <span class="blog_meta_item blog_meta_tag">Tag <a href="" rel="category tag">people</a></span>
+        <span class="blog_meta_item blog_meta_date">{{ page.date | date: "%b %-d, %Y" }}</span>
+        <span class="blog_meta_item blog_meta_author">{{ page.author }}</span>
+    </div>
+    <div class="blog_post_text blog_post_description">
+        {{ content }}
+    </div>
 </div>

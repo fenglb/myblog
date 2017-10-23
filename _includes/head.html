@@ -6,10 +6,12 @@
     <link ref="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
     <meta name="author" content="Liubin Feng | 冯柳宾" />
     <meta name="description" content="{{ site.description }}">
-
+    <!--[if lt IE 9]>
+        <script src="https://awcdn1.ahmad.works/writing/wp-content/themes/writing/js/html5.js"></script>
+    <![endif]-->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/media/css/font.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/media/css/simple-grid.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/media/css/main.css" | prepend: site.baseurl }}">
     <script async src="https://use.fontawesome.com/32c3d13def.js"></script>
     <script async src="/media/js/load-typekit.js"></script>
     {% if page.mathjax %}
