@@ -1,6 +1,5 @@
 ---
-layout: default 
-title : "Blog Index"
+layout: default
 ---
 <div class="site_content">
     {% for post in site.posts %}
@@ -17,8 +16,8 @@ title : "Blog Index"
                 </h2>
             </div>
             <div class="blog_post_meta">
-                <span class="blog_meta_item blog_meta_category">In <a href="{{ post.url | prepend: site.baseurl }}" rel="category tag">Image Posts</a></span>
-                <span class="blog_meta_item blog_meta_tag">Tag <a href="" rel="category tag">people</a></span>
+        <span class="blog_meta_item blog_meta_category">In <a href="" rel="category tag">{%for category in post.categories%}{{category}}{%if forloop.last == false%}, {%endif%}{%endfor%}</a></span>
+        <span class="blog_meta_item blog_meta_tag">Tag <a href="" rel="category tag">{%for tag in post.tags%}{{tag}}{%if forloop.last == false%}, {%endif%}{%endfor%}</a></span>
                 <span class="blog_meta_item blog_meta_date">{{ post.date | date: "%Y-%m-%d" }}</span>
                 <span class="blog_meta_item blog_meta_author">{{ post.author }}</span>
             </div>

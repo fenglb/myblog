@@ -8,8 +8,8 @@ layout: default
         </h1>
     </div>
     <div class="blog_post_meta">
-        <span class="blog_meta_item blog_meta_category">In <a href="" rel="category tag">Image Posts</a></span>
-        <span class="blog_meta_item blog_meta_tag">Tag <a href="" rel="category tag">people</a></span>
+        <span class="blog_meta_item blog_meta_category">In <a href="" rel="category tag">{%for category in page.categories%}{{category}}{%if forloop.last == false%}, {%endif%}{%endfor%}</a></span>
+        <span class="blog_meta_item blog_meta_tag">Tag <a href="" rel="category tag">{%for tag in page.tags%}{{tag}}{%if forloop.last == false%}, {%endif%}{%endfor%}</a></span>
         <span class="blog_meta_item blog_meta_date">{{ page.date | date: "%b %-d, %Y" }}</span>
         <span class="blog_meta_item blog_meta_author">{{ page.author }}</span>
     </div>

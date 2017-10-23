@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liubin Feng|冯柳宾</title>
-    <description></description>
+    <description>Personal webisite of Liubin Feng; 冯柳宾的个人网站</description>
     <link>http://liubin.name/</link>
     <atom:link href="http://liubin.name/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Oct 2017 14:27:57 +0800</pubDate>
-    <lastBuildDate>Mon, 23 Oct 2017 14:27:57 +0800</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Mon, 23 Oct 2017 22:52:12 +0800</pubDate>
+    <lastBuildDate>Mon, 23 Oct 2017 22:52:12 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>尝试买房的经历</title>
         <description>&lt;p&gt;这次要写成纪要呢，还是写成吐槽呢，还是就是抒发心情？敲敲键盘，又删除，这两周的经历，让我也不知道要说什么？&lt;/p&gt;
 
-&lt;p&gt;先提一下在朋友圈上看到的一个段子：
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-    一对北大清华毕业的年轻夫妻问大师：如果买不起学区房，该怎么办？
+&lt;p&gt;先提一下在朋友圈上看到的一个段子：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    一对北大清华毕业的年轻夫妻问大师：如果买不起学区房，该怎么办？
     大师回：如果北大清华毕业生都买不起房，还买学区房做啥！
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;直接的逻辑思维让我觉得这位大师答非所问，他们是问你买不起学区房，不是买不起房。我向我妻子阐述我看不懂这句话的意思。我妻子说，这句话说的是，即使上得了北大清华也买不起房，那又何必上好学校呢！我顿悟了，瞬间语塞！&lt;/p&gt;
 
@@ -25,15 +24,15 @@
 &lt;div class=&quot;meta&quot;&gt;Mar 18, 2017&lt;/div&gt;
 </description>
         <pubDate>Sat, 18 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://liubin.name/lift/2017/03/18/buy-house-note-xm/</link>
-        <guid isPermaLink="true">http://liubin.name/lift/2017/03/18/buy-house-note-xm/</guid>
+        <link>http://liubin.name/life/2017/03/18/buy-house-note-xm/</link>
+        <guid isPermaLink="true">http://liubin.name/life/2017/03/18/buy-house-note-xm/</guid>
         
         <category>买房</category>
         
         <category>厦门</category>
         
         
-        <category>Lift</category>
+        <category>Life</category>
         
       </item>
     
