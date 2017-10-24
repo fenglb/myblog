@@ -2,7 +2,7 @@
 layout: post
 title:  "尝试买房的经历"
 date:   2017-03-18
-categories: [Lift]
+categories: [Life]
 tags: [买房,厦门]
 ---
 
