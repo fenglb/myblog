@@ -8,6 +8,7 @@ body {
   color: #222;
   line-height: 1.5;
   background: #fff;
+  font-family: 'Alegreya', 'Palatino Linotype', 'Book Antiqua', Palatino, 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', '仿宋', 'FangSong', 'NSimSun', 'Microsoft YaHei', serif;
 }
 * { margin: 0; padding: 0;border:none;outline:none; }
 h1{font-size:200%;color:#000;}
@@ -84,7 +85,6 @@ header {
 .blog_post_meta span {
     padding: 0 0.4em;
 }
-
 .site_content {
     display: flex;
     flex-direction: column;
@@ -98,7 +98,7 @@ article {
     flex-wrap: nowrap;
 }
 .blog_post_meta {
-    font-size: 80%;
+    font-size: 90%;
     color: #333;
 }
 .post_thumbnail_wrapper .post-thumbnail img {
@@ -107,25 +107,34 @@ article {
 }
 .post_thumbnail_wrapper {
     padding: 0 15px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 .post_info_wrapper {
     padding: 0 15px;
+    flex-grow: 2;
 }
 .content {
     margin-bottom: 35px;
     padding-bottom: 35px;
 }
+.site_content,
 .main_content {
-    margin: 0 10%;
+    margin: 5% 5%;
+}
+.meta {
+    font-size: 80%;
+    text-align: right;
+    border-bottom: 1px dashed #aaa;
 }
 @media only screen and (max-width: 80em) {
     .container {
-        width: 80%;
+        width: 90%;
     }
 }
 @media only screen and (max-width: 60em) {
     .container {
-        width: 90%;
+        width: 95%;
     }
     article {
         display: flex;
