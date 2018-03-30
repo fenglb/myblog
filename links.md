@@ -42,6 +42,7 @@ permalink: /links/
 * [CERMAX](http://cermax.itqb.unl.pt/) NMR center of france.
 * [Manchester NMR Methodology](http://nmr.chemistry.manchester.ac.uk) work on DOSY, MAD, implementing homonuclear decoupling / pure shift methods, automated shimming methods, ..
 * [Structure and Dynamics of Biomolecules](http://www.paris-en-resonance.fr/index.php) developments of new methods for NMR in solution, solid and gases, and for MRI using state-of-the-art equipment.
+* [SeRMN](http://sermn.uab.cat/)is the Scientific-Technical Research Support Service encompassing the building, amenities, research equipment, and economic, personnel and management resources aimed at obtaining nmr spectra and images from liquid, semi-solid, solid and live samples. 
 
 ### 理念性网站
 * [SCI-HUB](http://sci-hub.bz) 提倡“平等知识分享权”，打破文献版权壁垒。
