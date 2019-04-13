@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on 壁上同年-与影为友形若痴人</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on 壁上同年-与影为友形若痴人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Jan 2019 14:03:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo学习日记</title>
+      <link>http://localhost:1313/post/hugo_notebook/</link>
+      <pubDate>Fri, 18 Jan 2019 14:03:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/hugo_notebook/</guid>
+      <description>&lt;p&gt;Hugo是Go语言实现的静态网站生成器。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

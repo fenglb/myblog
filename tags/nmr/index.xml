@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NMR on 壁上同年-与影为友形若痴人</title>
+    <link>http://localhost:1313/tags/nmr/</link>
+    <description>Recent content in NMR on 壁上同年-与影为友形若痴人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Apr 2019 14:08:15 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/nmr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>蛋白二级结构和NOE模式</title>
+      <link>http://localhost:1313/post/noepatterns/</link>
+      <pubDate>Sat, 13 Apr 2019 14:08:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/noepatterns/</guid>
+      <description>&lt;p&gt;α螺旋、β片和其他二级结构单元的NOE强度模式概述。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

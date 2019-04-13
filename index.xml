@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>壁上同年-与影为友形若痴人</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 壁上同年-与影为友形若痴人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Apr 2019 14:08:15 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>蛋白二级结构和NOE模式</title>
+      <link>http://localhost:1313/post/noepatterns/</link>
+      <pubDate>Sat, 13 Apr 2019 14:08:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/noepatterns/</guid>
+      <description>&lt;p&gt;α螺旋、β片和其他二级结构单元的NOE强度模式概述。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo学习日记</title>
+      <link>http://localhost:1313/post/hugo_notebook/</link>
+      <pubDate>Fri, 18 Jan 2019 14:03:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/hugo_notebook/</guid>
+      <description>&lt;p&gt;Hugo是Go语言实现的静态网站生成器。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用链接</title>
+      <link>http://localhost:1313/projects/link/</link>
+      <pubDate>Fri, 18 Jan 2019 10:32:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/projects/link/</guid>
+      <description>网站 高场核磁研究中心 厦大高场核磁研究中心网站 工具 nmrshiftdb2 有机分子核磁数据库 csdb 细菌糖数据库 monosaccharidedb 包含776种单糖的数据库 glycosciences 糖科学，包含多糖结构、核磁和质</description>
+    </item>
+    
+    <item>
+      <title>2019年开春</title>
+      <link>http://localhost:1313/post/first_post/</link>
+      <pubDate>Fri, 18 Jan 2019 09:48:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/first_post/</guid>
+      <description>忆往昔 记忆中儿时的日光总是很晃眼，并且日头总是显得比较惨白。有时候想想山那是那山，冬天依旧是冬天，只是印象中山总是空寂，现而今冬日也不冷了。</description>
+    </item>
+    
+  </channel>
+</rss>
