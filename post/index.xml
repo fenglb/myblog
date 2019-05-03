@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Apr 2019 14:08:15 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 20:00:09 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leon AI-开源的个人助理</title>
+      <link>http://liubin.name/post/leon-ai/</link>
+      <pubDate>Fri, 03 May 2019 20:00:09 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/leon-ai/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://getleon.ai&#34;&gt;leon&lt;/a&gt;一个开源的个人助理，可以训练成自个的智能助理软件。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>蛋白二级结构和NOE模式</title>

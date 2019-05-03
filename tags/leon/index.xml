@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leon on 壁上同年-与影为友形若痴人</title>
+    <link>http://liubin.name/tags/leon/</link>
+    <description>Recent content in Leon on 壁上同年-与影为友形若痴人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 May 2019 20:00:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://liubin.name/tags/leon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leon AI-开源的个人助理</title>
+      <link>http://liubin.name/post/leon-ai/</link>
+      <pubDate>Fri, 03 May 2019 20:00:09 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/leon-ai/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://getleon.ai&#34;&gt;leon&lt;/a&gt;一个开源的个人助理，可以训练成自个的智能助理软件。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
