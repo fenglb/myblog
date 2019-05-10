@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 May 2019 20:00:09 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2019 10:52:20 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>超低温探头ATM部件维修/Cryoprobe ATM Unit Main Repairing on Bruker Avance III HD 850MHz</title>
+      <link>http://liubin.name/post/850-atm-unit-main-repairing/</link>
+      <pubDate>Fri, 10 May 2019 10:52:20 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/850-atm-unit-main-repairing/</guid>
+      <description>&lt;p&gt;今年3月份的时候，850MHz的超低温探头CPTCI的ATM出现调谐跳不过去的问题，底下是我的维修记录。曾经咨询过厂商，厂商的意思是如果给我更换一个好的ATM部件，可以用，就说明是ATM的问题，此部件报价13万人民币。太贵，承受不起，我就自己修了。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Leon AI-开源的个人助理</title>
