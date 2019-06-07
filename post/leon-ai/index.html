@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.55.5 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
 <link rel="canonical" href="http://liubin.name/post/leon-ai/" />
@@ -43,15 +43,15 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://liubin.name/post/leon-ai/" />
 <meta property="article:published_time" content="2019-05-03T20:00:09&#43;08:00"/>
-<meta property="article:modified_time" content="2019-05-03T20:00:09&#43;08:00"/>
+<meta property="article:modified_time" content="2019-06-07T15:30:00&#43;08:00"/>
 
 <meta itemprop="name" content="Leon AI-开源的个人助理">
 <meta itemprop="description" content="开源的个人助理">
 
 
 <meta itemprop="datePublished" content="2019-05-03T20:00:09&#43;08:00" />
-<meta itemprop="dateModified" content="2019-05-03T20:00:09&#43;08:00" />
-<meta itemprop="wordCount" content="136">
+<meta itemprop="dateModified" content="2019-06-07T15:30:00&#43;08:00" />
+<meta itemprop="wordCount" content="1057">
 
 
 
@@ -139,7 +139,26 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#词汇表">词汇表</a>
+<ul>
+<li><a href="#操作-badge-text-1-0-0-beta-3">操作 <Badge text="1.0.0-beta.3+"/></a></li>
+<li><a href="#api">API</a></li>
+<li><a href="#asr">ASR</a></li>
+<li><a href="#answers">Answers</a></li>
+<li><a href="#brain">Brain</a></li>
+<li><a href="#classifier">Classifier</a></li>
+<li><a href="#expressions">Expressions</a></li>
+<li><a href="#modules">Modules</a></li>
+<li><a href="#nlu">NLU</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#stt">STT</a></li>
+<li><a href="#synchronizer">Synchronizer</a></li>
+<li><a href="#tts">TTS</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
@@ -148,6 +167,148 @@
 <p>一直以来，我就想搭建自己的语音智能助理，但是有不喜欢商业的语音助理，比如Siri，OK Google，小度，小易等等，觉得控制权在开发商那边，数据也在他们那边，没有任何控制权和隐私权。</p>
 
 <p>leon这个项目，可以拿来玩玩。</p>
+
+<p>以下是我翻译leon的的词汇表.</p>
+
+<h1 id="词汇表">词汇表</h1>
+
+<p>你也许不认识一些文档中的词汇;这篇文章将有助于您更好理解这些词汇已经它们和Leon的关系.</p>
+
+<h2 id="操作-badge-text-1-0-0-beta-3">操作 <Badge text="1.0.0-beta.3+"/></h2>
+
+<p>操作作为切入口.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/tree/develop/packages/calendar/todolist.py">packages/calendar/todolist.py</a> <em>example of the <code>To-Do List</code> module including actions such as <code>create_list</code>, <code>complete_todo</code>, etc</em>.</p>
+</blockquote>
+
+<h2 id="api">API</h2>
+
+<p>API代表*应用程序编程接口*，它允许项目的不同节点之间进行通信。这些节点可以是服务器、库等。</p>
+
+<p>Leon APIs 的例子:
+- <a href="https://github.com/leon-ai/leon/tree/develop/server/src/api">HTTP API</a> 服务器和客户端数据交换.
+- <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/server.js">WebSocket API</a> 服务器和客户端双向通讯通道.
+- <a href="https://github.com/leon-ai/leon/blob/develop/bridges/python/utils.py">Python library API</a> 允许开发者自定义函数调用Leon的模块.</p>
+
+<h2 id="asr">ASR</h2>
+
+<p>ASR或*自动语音识别*是利用计算机硬件和软件技术来识别和处理人类语音。</p>
+
+<p>Leon使用这个模块来识别语音.</p>
+
+<blockquote>
+<p>Attachments:
+- <a href="https://github.com/leon-ai/leon/blob/develop/app/js/main.es6.js">app/js/main.es6.js</a> <em>ASR web app</em>.
+- <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/asr.js">server/src/core/asr.js</a> <em>ASR server</em>.</p>
+</blockquote>
+
+<h2 id="answers">Answers</h2>
+
+<p>Answers 是 Leon 的应答模块.
+Each <a href="/glossary.md#packages">package</a> has its own set of answers with different translations.
+每个包<a href="#package">package</a>都包含它们自个的 answers 模块, 这个模块具有不同翻译版本.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/packages/checker/data/answers/en.json">packages/checker/data/answers/en.json</a> <em>example of the <code>Checker</code> package English answers</em>.</p>
+</blockquote>
+
+<h2 id="brain">Brain</h2>
+
+<p>Leon 的 Brain 是它的核心部分, 负责执行<a href="#modelus">modules</a>, 应答, 理解语句等等.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/brain.js">server/src/core/brain.js</a> <em>Leon&rsquo;s brain</em>.</p>
+</blockquote>
+
+<h2 id="classifier">Classifier</h2>
+
+<p>分类器是一种模型, 一旦经过训练可以通过算法输出一个结果, 这个结果将用于做出决定.</p>
+
+<p>Leon 使用它来存储<a href="#expressions">expressions</a>训练输出的结果.</p>
+
+<h2 id="expressions">Expressions</h2>
+
+<p>Expressions 是 Leon 用来训练理解能力的数据集合.
+每一个<a href="#packages">package</a>都拥有自个不同语言版本的训练集.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/packages/checker/data/expressions/en.json">packages/checker/data/expressions/en.json</a> <em>example of the <code>Checker</code> package English expressions</em>.</p>
+</blockquote>
+
+<h2 id="modules">Modules</h2>
+
+<dl>
+<dt>Modules 是 Leon 的技巧; 由于它们 Leon 才能发挥它的功能. Modules 可以包含一个或者无限个<a href="#actions">actions</a>.</dt>
+</dl>
+
+<dl>
+<dt>Modules 是 Leon 的技巧; 由于它们 Leon 才能发挥它的功能. Modules 可以包含一个或者无限个<a href="#actions">actions</a>.</dt>
+</dl>
+
+<dl>
+<dt>.</dt>
+</dl>
+
+<dl>
+<dt>欢迎来添加贡献<a href="https://github.com/leon-ai/leon/blob/develop/.github/CONTRIBUTING.md">contribute</a> &lt;3</dt>
+</dl>
+
+<dl>
+<dt>on-ai/leon/blob/develop/.github/CONTRIBUTING.md) &lt;3</dt>
+</dl>
+
+<p>:::</p>
+
+<h2 id="nlu">NLU</h2>
+
+<p>NLU (<em>自然语言理解</em>) 帮助计算机理解人类语言.</p>
+
+<p>Leon 利用它来加载最合适的方法<a href="#classifier">classifier</a>.
+&gt; Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/nlu.js">server/src/core/nlu.js</a> <em>Leon&rsquo;s NLU</em>.</p>
+
+<h2 id="packages">Packages</h2>
+
+<p>Leon 的 packages 包含一个或者无限个<a href="#modules">modules</a>. 你可以认为 packages 就是 modules 的集合. 这是 <a href="#answer">answers</a> 和 <a href="#expressions">expressions</a>保存的地方.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/tree/develop/packages/leon">packages/leon</a> <em>example of the <code>Leon</code> package including modules related to Leon himself</em>.</p>
+</blockquote>
+
+<p>::: 提醒
+完整的 package 清单在<a href="https://github.com/leon-ai/leon/tree/develop/packages">这里</a>.
+:::</p>
+
+<h2 id="stt">STT</h2>
+
+<p>STT, <em>语音转文字</em>, 把语言转换成文字.</p>
+
+<p>Leon has multiple STT parsers; you can choose one (or several) to <a href="/configuration.md#voice">configure</a>.
+Leon 有多个 STT 过滤器; 你通过<a href="https://github.com/leon-ai/leon/configuration.md#voice">configure</a>可以选择其中一个或者数个.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/stt/stt.js">server/src/stt/stt.js</a> <em>Leon&rsquo;s STT</em>.</p>
+</blockquote>
+
+<h2 id="synchronizer">Synchronizer</h2>
+
+<p>synchronizer 可以同步内容到云端或者您的设备(Google Drive等). 主要有<a href="#modules">moduels</a>配置.</p>
+
+<p>可以根据您的偏好来在<a href="https://github.com/leon-ai/leon/configuration.md#synchronizer">configure</a>为每个 module 设置来支持这个功能.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/synchronizer.js">server/src/core/synchronizer.js</a> <em>Leon&rsquo;s synchronizer</em>.</p>
+</blockquote>
+
+<h2 id="tts">TTS</h2>
+
+<p>TTS 或者 (<em>文字转语音</em>) 把文字转换为音频输出.</p>
+
+<p>Leon 有多个 TTS synthesizers; 你可以在<a href="https://github.com/leon-ai/leon/configuration.md#voice">configure</a>设置.</p>
+
+<blockquote>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/tts/tts.js">server/src/tts/tts.js</a> <em>Leon&rsquo;s TTS</em>.</p>
+</blockquote>
     </div>
 
     <div class="post-copyright">
@@ -158,7 +319,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2019-05-03
+        2019-06-07
         
     </span>
   </p>
@@ -201,6 +362,10 @@
       gitalk.render('gitalk-container');
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+  
+  
+
+  
 
       </div>
     </main>
