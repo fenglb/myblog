@@ -2,8 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liubin.name/post/vpn_pptp_in_archlinux/</loc>
+    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubin.name/categories/</loc>
-    <lastmod>2019-06-07T15:30:00+08:00</lastmod>
+    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/categories/linux/</loc>
+    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/</loc>
+    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/</loc>
+    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,19 +39,7 @@
   </url>
   
   <url>
-    <loc>http://liubin.name/post/</loc>
-    <lastmod>2019-06-07T15:30:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://liubin.name/tags/</loc>
-    <lastmod>2019-06-07T15:30:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://liubin.name/</loc>
     <lastmod>2019-06-07T15:30:00+08:00</lastmod>
     <priority>0</priority>
   </url>
