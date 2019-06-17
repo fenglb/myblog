@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liubin.name/post/bruker_pulse_program_two_character_code_definitions/</loc>
+    <lastmod>2019-06-17T22:39:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/categories/</loc>
+    <lastmod>2019-06-17T22:39:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/</loc>
+    <lastmod>2019-06-17T22:39:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/</loc>
+    <lastmod>2019-06-17T22:39:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2019-06-17T22:39:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/relative_sensitivty_of_triple_resonance_exp/</loc>
+    <lastmod>2019-06-09T06:38:43+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/music_learn/</loc>
+    <lastmod>2019-06-08T21:01:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubin.name/post/vpn_pptp_in_archlinux/</loc>
     <lastmod>2019-06-08T12:05:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,25 +54,7 @@
   </url>
   
   <url>
-    <loc>http://liubin.name/categories/</loc>
-    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://liubin.name/categories/linux/</loc>
-    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://liubin.name/post/</loc>
-    <lastmod>2019-06-08T12:05:36+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://liubin.name/</loc>
     <lastmod>2019-06-08T12:05:36+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -41,12 +68,6 @@
   <url>
     <loc>http://liubin.name/tags/</loc>
     <lastmod>2019-06-07T15:30:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2019-05-10T10:52:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   

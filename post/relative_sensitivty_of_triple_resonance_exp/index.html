@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Archlinux中使用PPTP VPN设置 - 壁上同年-与影为友形若痴人</title>
+  <title>Relative sensitivty of triple resonance experiments - 壁上同年-与影为友形若痴人</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="冯柳宾" /><meta name="description" content="在Archlinux中设置VPN连接, 以下是相应的设置方法. 可以参考Archlinux使用pptpclient.
-" /><meta name="keywords" content="Archlinux, PPTP" />
+<meta name="author" content="冯柳宾" /><meta name="description" content="三维实验的灵敏度列表
+" /><meta name="keywords" content="3D NMR" />
 
 
 
@@ -27,7 +27,7 @@
 <meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
-<link rel="canonical" href="http://liubin.name/post/vpn_pptp_in_archlinux/" />
+<link rel="canonical" href="http://liubin.name/post/relative_sensitivty_of_triple_resonance_exp/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,27 +39,27 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Archlinux中使用PPTP VPN设置" />
-<meta property="og:description" content="在Archlinux中设置VPN连接, 以下是相应的设置方法. 可以参考Archlinux使用pptpclient." />
+<meta property="og:title" content="Relative sensitivty of triple resonance experiments" />
+<meta property="og:description" content="三维实验的灵敏度列表" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://liubin.name/post/vpn_pptp_in_archlinux/" />
-<meta property="article:published_time" content="2019-06-08T12:05:36&#43;08:00"/>
-<meta property="article:modified_time" content="2019-06-08T12:05:36&#43;08:00"/>
+<meta property="og:url" content="http://liubin.name/post/relative_sensitivty_of_triple_resonance_exp/" />
+<meta property="article:published_time" content="2019-06-09T06:38:43&#43;08:00"/>
+<meta property="article:modified_time" content="2019-06-09T06:38:43&#43;08:00"/>
 
-<meta itemprop="name" content="Archlinux中使用PPTP VPN设置">
-<meta itemprop="description" content="在Archlinux中设置VPN连接, 以下是相应的设置方法. 可以参考Archlinux使用pptpclient.">
+<meta itemprop="name" content="Relative sensitivty of triple resonance experiments">
+<meta itemprop="description" content="三维实验的灵敏度列表">
 
 
-<meta itemprop="datePublished" content="2019-06-08T12:05:36&#43;08:00" />
-<meta itemprop="dateModified" content="2019-06-08T12:05:36&#43;08:00" />
-<meta itemprop="wordCount" content="159">
+<meta itemprop="datePublished" content="2019-06-09T06:38:43&#43;08:00" />
+<meta itemprop="dateModified" content="2019-06-09T06:38:43&#43;08:00" />
+<meta itemprop="wordCount" content="113">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Archlinux中使用PPTP VPN设置"/>
-<meta name="twitter:description" content="在Archlinux中设置VPN连接, 以下是相应的设置方法. 可以参考Archlinux使用pptpclient."/>
+<meta name="twitter:title" content="Relative sensitivty of triple resonance experiments"/>
+<meta name="twitter:description" content="三维实验的灵敏度列表"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -126,12 +126,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Archlinux中使用PPTP VPN设置</h1>
+      <h1 class="post-title">Relative sensitivty of triple resonance experiments</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-06-08 </span>
+        <span class="post-time"> 2019-06-09 </span>
         <div class="post-category">
-            <a href="/categories/linux/"> Linux </a>
+            <a href="/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/"> 核磁技术 </a>
             </div>
         
       </div>
@@ -140,54 +140,94 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#install-pptpclient-and-configurate">Install pptpclient and configurate</a></li>
-<li><a href="#connect-and-disconnect">Connect and disconnect</a></li>
-<li><a href="#error">Error</a></li>
-</ul></li>
-</ul>
-</nav>
+    
   </div>
 </div>
     <div class="post-content">
-      <p>在Archlinux中设置VPN连接, 以下是相应的设置方法. 可以参考<a href="https://www.jianshu.com/p/80cc6514d3f1">Archlinux使用pptpclient</a>.</p>
+      <p>三维实验的灵敏度列表</p>
 
-<h2 id="install-pptpclient-and-configurate">Install pptpclient and configurate</h2>
+<table>
+<thead>
+<tr>
+<th>Experiment</th>
+<th align="center">Assignment</th>
+<th align="center">Comment</th>
+<th align="right">Relative S/N[%]</th>
+</tr>
+</thead>
 
-<blockquote>
-<p>sudo pacman -S pptpclient</p>
+<tbody>
+<tr>
+<td>HNCO</td>
+<td align="center">H(i)-N(i)-C&rsquo;(i-1)</td>
+<td align="center">&lt;20 kD, above use 2H labeling</td>
+<td align="right">100</td>
+</tr>
 
-<p>pptpsetup &ndash;create tunnel_name &ndash;server vpn.example.com &ndash;usrname alice &ndash;password pd &ndash;encrypt</p>
-</blockquote>
+<tr>
+<td>HNCA</td>
+<td align="center">H(i)-N(i)-Ca(i)Ca(i-1)</td>
+<td align="center">&lt;20 kD, above use 2H labeling</td>
+<td align="right"><sup>50</sup>&frasl;<sub>15</sub></td>
+</tr>
 
-<h2 id="connect-and-disconnect">Connect and disconnect</h2>
+<tr>
+<td>HN(Co)CA</td>
+<td align="center">H(i)-N(i)-Ca(i-1)</td>
+<td align="center">&lt;20 kD, above use 2H labeling</td>
+<td align="right">71</td>
+</tr>
 
-<blockquote>
-<p>sudo pon tunnel_name</p>
+<tr>
+<td>HN(CA)Co</td>
+<td align="center">H(i)-N(i)-C&rsquo;(i)</td>
+<td align="center">&lt;20 kD, above use 2H labeling</td>
+<td align="right"><sup>13</sup>&frasl;<sub>4</sub></td>
+</tr>
 
-<p>sudo ip route add default dev ppp0</p>
+<tr>
+<td>CBCA(Co)NH</td>
+<td align="center">H(i)-N(i)-Ca(i-1)Cb(i-1)</td>
+<td align="center">&lt;20 kD, above use 2H labeling</td>
+<td align="right"><sup>13</sup>&frasl;<sub>9</sub> a/b</td>
+</tr>
 
-<p>sudo ip route del default dev ppp0</p>
+<tr>
+<td>HBHA(Co)NH</td>
+<td align="center">H(i)-N(i)-Ha(i-1)Hb(i-1)</td>
+<td align="center">&lt;20 kD, above use 2H labeling</td>
+<td align="right"><sup>13</sup>&frasl;<sub>9</sub> a/b</td>
+</tr>
 
-<p>sudo poff tunnel_name</p>
-</blockquote>
+<tr>
+<td>CBCANH,HNCACB</td>
+<td align="center">H(i)-N(i)-Ca(i-1)Ca(i)Cb(i-1)Cb(i)</td>
+<td align="center">&lt;15 kD, above use 2H labeling</td>
+<td align="right"><sup>4</sup>&frasl;<sub>1</sub>.7 a/b(i), 1.<sup>3</sup>&frasl;<sub>0</sub>.5 a/b(i-1)</td>
+</tr>
 
-<p>这样子就应该可以连接到VPN服务了.</p>
+<tr>
+<td>(H)CC(Co)NH-Tocsy</td>
+<td align="center">H(i)-N(i)-Caliph(i-1)</td>
+<td align="center">&lt;15-20 kD, above use 2H labeling</td>
+<td align="right"></td>
+</tr>
 
-<h2 id="error">Error</h2>
+<tr>
+<td>H(CC)(Co)NH-Tocsy</td>
+<td align="center">H(i)-N(i)-Caliph(i-1)</td>
+<td align="center">&lt;15-20 kD, above use 2H labeling</td>
+<td align="right"></td>
+</tr>
 
-<p>When starting PPTP client, the pppd process cannot locate the appropriate module:</p>
-
-<blockquote>
-<p>Couldn&rsquo;t open the /dev/ppp device: No such device or address</p>
-
-<p>Please load the ppp_generic kernel module.</p>
-</blockquote>
-
-<p>The solution is to edit the /etc/modprobe.d/modules.conf file and change. This can reference <a href="https://wiki.archlinux.org/index.php/Ppp#pppd_cannot_load_kernel_module_ppp_generic">archlinux wiki</a></p>
+<tr>
+<td>HCCH-Tocsy</td>
+<td align="center">Haliph-Caliph</td>
+<td align="center">&lt;25 kD, sensitive, but tedious to analyze, combine with HCCONH type exp</td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
     </div>
 
     <div class="post-copyright">
@@ -198,7 +238,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2019-06-08
+        2019-06-09
         
     </span>
   </p>
@@ -208,13 +248,13 @@
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/music_learn/">
+        <a class="prev" href="/post/bruker_pulse_program_two_character_code_definitions/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">乐理的学习</span>
+            <span class="prev-text nav-default">Bruker pulse program two character code definitions</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/850-atm-unit-main-repairing/">
-            <span class="next-text nav-default">超低温探头ATM部件维修/Cryoprobe ATM Unit Main Repairing on Bruker Avance III HD 850MHz</span>
+        <a class="next" href="/post/music_learn/">
+            <span class="next-text nav-default">乐理的学习</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -227,8 +267,8 @@
     <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
       var gitalk = new Gitalk({
-        id: '2019-06-08 12:05:36 \x2b0800 CST',
-        title: 'Archlinux中使用PPTP VPN设置',
+        id: '2019-06-09 06:38:43 \x2b0800 CST',
+        title: 'Relative sensitivty of triple resonance experiments',
         clientID: '',
         clientSecret: '',
         repo: 'myblog',
