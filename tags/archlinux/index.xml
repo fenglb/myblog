@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on 壁上同年-与影为友形若痴人</title>
+    <link>http://liubin.name/tags/archlinux/</link>
+    <description>Recent content in Archlinux on 壁上同年-与影为友形若痴人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Jun 2019 16:40:41 +0800</lastBuildDate>
+    
+	<atom:link href="http://liubin.name/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Archlinux</title>
+      <link>http://liubin.name/post/arch_install/</link>
+      <pubDate>Sat, 29 Jun 2019 16:40:41 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/arch_install/</guid>
+      <description>&lt;p&gt;Install archlinux&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
