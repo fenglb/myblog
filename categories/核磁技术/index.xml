@@ -6,10 +6,19 @@
     <description>Recent content in 核磁技术 on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Jun 2019 22:39:05 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 10:34:55 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Win7 system restore at PC with Topspin3.2pl2 of Bruker Avance III HD 600 MHz</title>
+      <link>http://liubin.name/post/600_pc_restore/</link>
+      <pubDate>Fri, 26 Jul 2019 10:34:55 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/600_pc_restore/</guid>
+      <description>&lt;p&gt;2019年7月20日，600 MHz谱仪采集计算机卡顿，重启启动不起来，检查硬盘发现硬盘坏道比较多。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Bruker pulse program two character code definitions</title>

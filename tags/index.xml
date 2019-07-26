@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Jun 2019 16:40:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 10:34:55 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NMR</title>
+      <link>http://liubin.name/tags/nmr/</link>
+      <pubDate>Fri, 26 Jul 2019 10:34:55 +0800</pubDate>
+      
+      <guid>http://liubin.name/tags/nmr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Archlinux</title>
@@ -17,15 +26,6 @@
       <pubDate>Sat, 29 Jun 2019 16:40:41 +0800</pubDate>
       
       <guid>http://liubin.name/tags/archlinux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NMR</title>
-      <link>http://liubin.name/tags/nmr/</link>
-      <pubDate>Fri, 10 May 2019 10:52:20 +0800</pubDate>
-      
-      <guid>http://liubin.name/tags/nmr/</guid>
       <description></description>
     </item>
     

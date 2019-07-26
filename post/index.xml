@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Jun 2019 16:40:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 10:34:55 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Win7 system restore at PC with Topspin3.2pl2 of Bruker Avance III HD 600 MHz</title>
+      <link>http://liubin.name/post/600_pc_restore/</link>
+      <pubDate>Fri, 26 Jul 2019 10:34:55 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/600_pc_restore/</guid>
+      <description>&lt;p&gt;2019年7月20日，600 MHz谱仪采集计算机卡顿，重启启动不起来，检查硬盘发现硬盘坏道比较多。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Install Archlinux</title>
@@ -43,15 +52,6 @@ In case of redundant information some two-character codes may be omitted.&lt;/p&
       
       <guid>http://liubin.name/post/relative_sensitivty_of_triple_resonance_exp/</guid>
       <description>&lt;p&gt;三维实验的灵敏度列表&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>乐理的学习</title>
-      <link>http://liubin.name/post/music_learn/</link>
-      <pubDate>Sat, 08 Jun 2019 21:01:44 +0800</pubDate>
-      
-      <guid>http://liubin.name/post/music_learn/</guid>
-      <description>&lt;p&gt;首先参考程序控的&lt;a href=&#34;https://www.cnblogs.com/devymex/p/3385179.html&#34;&gt;写给理工科人看的乐理&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
