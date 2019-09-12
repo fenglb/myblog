@@ -3,25 +3,44 @@
   
   <url>
     <loc>http://liubin.name/categories/</loc>
-    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://liubin.name/tags/nmr/</loc>
-    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://liubin.name/post/</loc>
-    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://liubin.name/tags/</loc>
-    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/nmr800&#43;inchina/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,18 +49,6 @@
     <lastmod>2019-07-26T10:34:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://liubin.name/</loc>
-    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

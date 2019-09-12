@@ -6,10 +6,19 @@
     <description>Recent content in NMR on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jul 2019 10:34:55 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2019 09:52:10 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/tags/nmr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在中国的800MHz&#43;核磁工作谱仪分布/800MHz&#43; in China</title>
+      <link>http://liubin.name/post/nmr800&#43;inchina/</link>
+      <pubDate>Thu, 12 Sep 2019 09:52:10 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/nmr800&#43;inchina/</guid>
+      <description>&lt;p&gt;总结国内目前800MHz以上的核磁谱仪的分布情况。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Win7 system restore at PC with Topspin3.2pl2 of Bruker Avance III HD 600 MHz</title>
