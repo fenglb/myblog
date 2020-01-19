@@ -6,18 +6,31 @@
     <description>Recent content in 核磁技术 on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Mon, 21 Oct 2019 21:36:30 +0800</lastBuildDate>
+=======
+    <lastBuildDate>Thu, 12 Sep 2019 09:52:10 +0800</lastBuildDate>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     
 	<atom:link href="http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>MRI_Recommended book</title>
       <link>http://liubin.name/post/mri_book/</link>
       <pubDate>Mon, 21 Oct 2019 21:36:30 +0800</pubDate>
       
       <guid>http://liubin.name/post/mri_book/</guid>
       <description>&lt;p&gt;几本介绍核磁共振成像的数据。&lt;/p&gt;</description>
+=======
+      <title>在中国的800MHz&#43;核磁工作谱仪分布/800MHz&#43; in China</title>
+      <link>http://liubin.name/post/nmr800&#43;inchina/</link>
+      <pubDate>Thu, 12 Sep 2019 09:52:10 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/nmr800&#43;inchina/</guid>
+      <description>&lt;p&gt;总结国内目前800MHz以上的核磁谱仪的分布情况。&lt;/p&gt;</description>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     </item>
     
     <item>

@@ -6,7 +6,11 @@
     <description>Recent content in Categories on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Mon, 21 Oct 2019 21:36:30 +0800</lastBuildDate>
+=======
+    <lastBuildDate>Thu, 12 Sep 2019 09:52:10 +0800</lastBuildDate>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     
 	<atom:link href="http://liubin.name/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +18,11 @@
     <item>
       <title>核磁技术</title>
       <link>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</link>
+<<<<<<< HEAD
       <pubDate>Mon, 21 Oct 2019 21:36:30 +0800</pubDate>
+=======
+      <pubDate>Thu, 12 Sep 2019 09:52:10 +0800</pubDate>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
       
       <guid>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</guid>
       <description></description>

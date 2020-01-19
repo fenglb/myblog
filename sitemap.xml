@@ -3,6 +3,7 @@
   
   <url>
     <loc>http://liubin.name/categories/</loc>
+<<<<<<< HEAD
     <lastmod>2019-10-21T21:36:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -11,11 +12,39 @@
   <url>
     <loc>http://liubin.name/tags/mri/</loc>
     <lastmod>2019-10-21T21:36:30+08:00</lastmod>
+=======
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/tags/nmr/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/tags/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/nmr800&#43;inchina/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://liubin.name/post/mri_book/</loc>
     <lastmod>2019-10-21T21:36:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -32,11 +61,28 @@
   <url>
     <loc>http://liubin.name/tags/</loc>
     <lastmod>2019-10-21T21:36:30+08:00</lastmod>
+=======
+    <loc>http://liubin.name/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2019-09-12T09:52:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/600_pc_restore/</loc>
+    <lastmod>2019-07-26T10:34:55+08:00</lastmod>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://liubin.name/</loc>
     <lastmod>2019-10-21T21:36:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -46,11 +92,22 @@
   <url>
     <loc>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2019-10-21T21:36:30+08:00</lastmod>
+=======
+    <loc>http://liubin.name/tags/archlinux/</loc>
+    <lastmod>2019-06-29T16:40:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/arch_install/</loc>
+    <lastmod>2019-06-29T16:40:41+08:00</lastmod>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://liubin.name/tags/nmr/</loc>
     <lastmod>2019-07-26T10:34:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -60,13 +117,28 @@
   <url>
     <loc>http://liubin.name/post/600_pc_restore/</loc>
     <lastmod>2019-07-26T10:34:55+08:00</lastmod>
+=======
+    <loc>http://liubin.name/categories/linux/</loc>
+    <lastmod>2019-06-29T16:40:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://liubin.name/post/bruker_pulse_program_two_character_code_definitions/</loc>
+    <lastmod>2019-06-17T22:39:05+08:00</lastmod>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://liubin.name/tags/archlinux/</loc>
     <lastmod>2019-06-29T16:40:41+08:00</lastmod>
+=======
+    <loc>http://liubin.name/post/relative_sensitivty_of_triple_resonance_exp/</loc>
+    <lastmod>2019-06-09T06:38:43+08:00</lastmod>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -79,6 +151,7 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://liubin.name/categories/linux/</loc>
     <lastmod>2019-06-29T16:40:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -107,6 +180,8 @@
   </url>
   
   <url>
+=======
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     <loc>http://liubin.name/post/850-atm-unit-main-repairing/</loc>
     <lastmod>2019-05-10T10:52:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -158,8 +233,12 @@
   <url>
     <loc>http://liubin.name/categories/%E7%BD%91%E9%A1%B5%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2019-04-13T14:39:23+08:00</lastmod>
+<<<<<<< HEAD
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+=======
+    <priority>0</priority>
+>>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
   </url>
   
   <url>
