@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 壁上同年-与影为友形若痴人</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Jun 2019 16:40:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 21:36:30 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>核磁技术</title>
+      <link>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Mon, 21 Oct 2019 21:36:30 +0800</pubDate>
+      
+      <guid>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Linux</title>
@@ -17,15 +26,6 @@
       <pubDate>Sat, 29 Jun 2019 16:40:41 +0800</pubDate>
       
       <guid>http://liubin.name/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>核磁技术</title>
-      <link>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Mon, 17 Jun 2019 22:39:05 +0800</pubDate>
-      
-      <guid>http://liubin.name/categories/%E6%A0%B8%E7%A3%81%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MRI on 壁上同年-与影为友形若痴人</title>
+    <link>http://liubin.name/tags/mri/</link>
+    <description>Recent content in MRI on 壁上同年-与影为友形若痴人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Oct 2019 21:36:30 +0800</lastBuildDate>
+    
+	<atom:link href="http://liubin.name/tags/mri/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MRI_Recommended book</title>
+      <link>http://liubin.name/post/mri_book/</link>
+      <pubDate>Mon, 21 Oct 2019 21:36:30 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/mri_book/</guid>
+      <description>&lt;p&gt;几本介绍核磁共振成像的数据。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

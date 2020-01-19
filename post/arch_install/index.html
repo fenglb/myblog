@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.62.2 with even 4.0.0" />
 
 
 <link rel="canonical" href="http://liubin.name/post/arch_install/" />
@@ -42,21 +42,17 @@
 <meta property="og:description" content="install archlinux" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://liubin.name/post/arch_install/" />
-<meta property="article:published_time" content="2019-06-29T16:40:41&#43;08:00"/>
-<meta property="article:modified_time" content="2019-06-29T16:40:41&#43;08:00"/>
-
+<meta property="article:published_time" content="2019-06-29T16:40:41+08:00" />
+<meta property="article:modified_time" content="2019-06-29T16:40:41+08:00" />
 <meta itemprop="name" content="Install Archlinux">
 <meta itemprop="description" content="install archlinux">
-
-
 <meta itemprop="datePublished" content="2019-06-29T16:40:41&#43;08:00" />
 <meta itemprop="dateModified" content="2019-06-29T16:40:41&#43;08:00" />
 <meta itemprop="wordCount" content="216">
 
 
 
-<meta itemprop="keywords" content="Archlinux," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Archlinux," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Install Archlinux"/>
 <meta name="twitter:description" content="install archlinux"/>
 
@@ -140,49 +136,56 @@
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#install-i3-wm-at-the-arch-os">Install i3-wm at the Arch OS.</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-i3-wm-at-the-arch-os">Install i3-wm at the Arch OS.</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
       <p>Install archlinux</p>
-
 <ol>
-<li><p>down the archlinux from the netword and make the USB booter through the ubuntu <code>dd</code></p></li>
-
-<li><p>change the computer bios to boot from the USB</p></li>
-
-<li><p>choose the first option Archlinux</p></li>
-
-<li><p>make sure the internat connection. you can use <code>ping</code> to check the internat status.
+<li>
+<p>down the archlinux from the netword and make the USB booter through the ubuntu <code>dd</code></p>
+</li>
+<li>
+<p>change the computer bios to boot from the USB</p>
+</li>
+<li>
+<p>choose the first option Archlinux</p>
+</li>
+<li>
+<p>make sure the internat connection. you can use <code>ping</code> to check the internat status.
 If you use the ether, you can make sure the dhpdc service is active and start.
-And maybe you only use the wireless, you can use <code>iw</code> and <code>wpa_supplicant</code></p></li>
-
-<li><p>you can select the best mirrorlist from /etc/pacman.d/mirrorlist, and delete the
+And maybe you only use the wireless, you can use <code>iw</code> and <code>wpa_supplicant</code></p>
+</li>
+<li>
+<p>you can select the best mirrorlist from /etc/pacman.d/mirrorlist, and delete the
 others. As my test, the aliyun, 163 and utcn are good. At the end, you can text the
-<code>pacman -Syy</code> to update the list.</p></li>
-
-<li><p>Now you can do partition. I make /boot, /home, /, and /swap. Because the windows 10
+<code>pacman -Syy</code> to update the list.</p>
+</li>
+<li>
+<p>Now you can do partition. I make /boot, /home, /, and /swap. Because the windows 10
 OS has been installed, so there is the efi/boot. This step I use the <code>fdisk -l</code> to view
-the detail of the partition of system, and use the <code>cfdisk</code> to create the new partition.</p></li>
-
-<li><p>You must format the new partition, use the <code>mkft.ext4</code> and <code>mkswap</code> and <code>swapon</code>.</p></li>
-
-<li><p>mount the root to /mnt. The home and boot, you must mkdir it and mount them.</p></li>
-
-<li><p>Install the base and base-devel to the system, it spent more or less 10 minutes.</p></li>
-
-<li><p>set the system clock and local parameter.</p></li>
+the detail of the partition of system, and use the <code>cfdisk</code> to create the new partition.</p>
+</li>
+<li>
+<p>You must format the new partition, use the <code>mkft.ext4</code> and <code>mkswap</code> and <code>swapon</code>.</p>
+</li>
+<li>
+<p>mount the root to /mnt. The home and boot, you must mkdir it and mount them.</p>
+</li>
+<li>
+<p>Install the base and base-devel to the system, it spent more or less 10 minutes.</p>
+</li>
+<li>
+<p>set the system clock and local parameter.</p>
+</li>
 </ol>
-
 <h3 id="install-i3-wm-at-the-arch-os">Install i3-wm at the Arch OS.</h3>
     </div>
 
@@ -206,7 +209,11 @@ the detail of the partition of system, and use the <code>cfdisk</code> to create
           <a href="/tags/archlinux/">Archlinux</a>
           </div>
       <nav class="post-nav">
-        
+        <a class="prev" href="/post/600_pc_restore/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Win7 system restore at PC with Topspin3.2pl2 of Bruker Avance III HD 600 MHz</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         <a class="next" href="/post/bruker_pulse_program_two_character_code_definitions/">
             <span class="next-text nav-default">Bruker pulse program two character code definitions</span>
             <span class="next-text nav-mobile">下一篇</span>
@@ -263,7 +270,8 @@ the detail of the partition of system, and use the <code>cfdisk</code> to create
 
   <span class="copyright-year">
     &copy; 
-    2019
+    2019 - 
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
