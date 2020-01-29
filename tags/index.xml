@@ -6,44 +6,26 @@
     <description>Recent content in Tags on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-<<<<<<< HEAD
     <lastBuildDate>Mon, 21 Oct 2019 21:36:30 +0800</lastBuildDate>
-=======
-    <lastBuildDate>Thu, 12 Sep 2019 09:52:10 +0800</lastBuildDate>
->>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
     
 	<atom:link href="http://liubin.name/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>MRI</title>
       <link>http://liubin.name/tags/mri/</link>
       <pubDate>Mon, 21 Oct 2019 21:36:30 +0800</pubDate>
       
       <guid>http://liubin.name/tags/mri/</guid>
-=======
-      <title>NMR</title>
-      <link>http://liubin.name/tags/nmr/</link>
-      <pubDate>Thu, 12 Sep 2019 09:52:10 +0800</pubDate>
-      
-      <guid>http://liubin.name/tags/nmr/</guid>
->>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
       <description></description>
     </item>
     
     <item>
-<<<<<<< HEAD
       <title>NMR</title>
       <link>http://liubin.name/tags/nmr/</link>
       <pubDate>Fri, 26 Jul 2019 10:34:55 +0800</pubDate>
-=======
-      <title>Archlinux</title>
-      <link>http://liubin.name/tags/archlinux/</link>
-      <pubDate>Sat, 29 Jun 2019 16:40:41 +0800</pubDate>
->>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
       
-      <guid>http://liubin.name/tags/archlinux/</guid>
+      <guid>http://liubin.name/tags/nmr/</guid>
       <description></description>
     </item>
     

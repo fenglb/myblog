@@ -23,11 +23,7 @@
 
 
 
-<<<<<<< HEAD
-<meta name="generator" content="Hugo 0.62.2 with even 4.0.0" />
-=======
-<meta name="generator" content="Hugo 0.55.5 with even 4.0.0" />
->>>>>>> f58b0257e75ef4105f84b2b5c11b531c10ed62d2
+<meta name="generator" content="Hugo 0.63.2 with even 4.0.0" />
 
 
 <link rel="canonical" href="http://liubin.name/post/leon-ai/" />
@@ -202,7 +198,7 @@ Each <a href="/glossary.md#packages">package</a> has its own set of answers with
 <h2 id="brain">Brain</h2>
 <p>Leon 的 Brain 是它的核心部分, 负责执行<a href="#modelus">modules</a>, 应答, 理解语句等等.</p>
 <blockquote>
-<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/brain.js">server/src/core/brain.js</a> <em>Leon's brain</em>.</p>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/brain.js">server/src/core/brain.js</a> <em>Leon&rsquo;s brain</em>.</p>
 </blockquote>
 <h2 id="classifier">Classifier</h2>
 <p>分类器是一种模型, 一旦经过训练可以通过算法输出一个结果, 这个结果将用于做出决定.</p>
@@ -214,7 +210,7 @@ Each <a href="/glossary.md#packages">package</a> has its own set of answers with
 <p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/packages/checker/data/expressions/en.json">packages/checker/data/expressions/en.json</a> <em>example of the <code>Checker</code> package English expressions</em>.</p>
 </blockquote>
 <h2 id="modules">Modules</h2>
-<p>Modules are Leon's skills; thanks to them Leon can work his magic. Modules contain one or an infinity of <a href="/glossary.md#actions">actions</a>.
+<p>Modules are Leon&rsquo;s skills; thanks to them Leon can work his magic. Modules contain one or an infinity of <a href="/glossary.md#actions">actions</a>.
 Modules 是 Leon 的技巧; 由于它们 Leon 才能发挥它的功能. Modules 可以包含一个或者无限个<a href="#actions">actions</a>.</p>
 <p>::: 提示
 越多的 models, Leon功能将越强大.
@@ -224,7 +220,7 @@ Modules 是 Leon 的技巧; 由于它们 Leon 才能发挥它的功能. Modules 
 <p>NLU (<em>自然语言理解</em>) 帮助计算机理解人类语言.</p>
 <p>Leon 利用它来加载最合适的方法<a href="#classifier">classifier</a>.</p>
 <blockquote>
-<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/nlu.js">server/src/core/nlu.js</a> <em>Leon's NLU</em>.</p>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/nlu.js">server/src/core/nlu.js</a> <em>Leon&rsquo;s NLU</em>.</p>
 </blockquote>
 <h2 id="packages">Packages</h2>
 <p>Leon 的 packages 包含一个或者无限个<a href="#modules">modules</a>. 你可以认为 packages 就是 modules 的集合. 这是 <a href="#answer">answers</a> 和 <a href="#expressions">expressions</a>保存的地方.</p>
@@ -239,19 +235,19 @@ Modules 是 Leon 的技巧; 由于它们 Leon 才能发挥它的功能. Modules 
 <p>Leon has multiple STT parsers; you can choose one (or several) to <a href="/configuration.md#voice">configure</a>.
 Leon 有多个 STT 过滤器; 你通过<a href="https://github.com/leon-ai/leon/configuration.md#voice">configure</a>可以选择其中一个或者数个.</p>
 <blockquote>
-<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/stt/stt.js">server/src/stt/stt.js</a> <em>Leon's STT</em>.</p>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/stt/stt.js">server/src/stt/stt.js</a> <em>Leon&rsquo;s STT</em>.</p>
 </blockquote>
 <h2 id="synchronizer">Synchronizer</h2>
 <p>synchronizer 可以同步内容到云端或者您的设备(Google Drive等). 主要有<a href="#modules">moduels</a>配置.</p>
 <p>可以根据您的偏好来在<a href="https://github.com/leon-ai/leon/configuration.md#synchronizer">configure</a>为每个 module 设置来支持这个功能.</p>
 <blockquote>
-<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/synchronizer.js">server/src/core/synchronizer.js</a> <em>Leon's synchronizer</em>.</p>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/core/synchronizer.js">server/src/core/synchronizer.js</a> <em>Leon&rsquo;s synchronizer</em>.</p>
 </blockquote>
 <h2 id="tts">TTS</h2>
 <p>TTS 或者 (<em>文字转语音</em>) 把文字转换为音频输出.</p>
 <p>Leon 有多个 TTS synthesizers; 你可以在<a href="https://github.com/leon-ai/leon/configuration.md#voice">configure</a>设置.</p>
 <blockquote>
-<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/tts/tts.js">server/src/tts/tts.js</a> <em>Leon's TTS</em>.</p>
+<p>Attachment: <a href="https://github.com/leon-ai/leon/blob/develop/server/src/tts/tts.js">server/src/tts/tts.js</a> <em>Leon&rsquo;s TTS</em>.</p>
 </blockquote>
 <h3 id="home-assistant">HOME ASSISTANT</h3>
 <p>Home Assistant 是一个运行在 Python 3上的开源家庭自动化平台, 跟踪和控制所有设备在家里和自动化控制。</p>
@@ -308,6 +304,10 @@ Leon 有多个 STT 过滤器; 你通过<a href="https://github.com/leon-ai/leon/
       gitalk.render('gitalk-container');
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+  
+  
+
+  
 
       </div>
     </main>
