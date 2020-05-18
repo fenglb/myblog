@@ -6,10 +6,28 @@
     <description>Recent content in Posts on 壁上同年-与影为友形若痴人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Oct 2019 21:36:30 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 20:52:19 +0800</lastBuildDate>
     
 	<atom:link href="http://liubin.name/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git 提交日记规范化</title>
+      <link>http://liubin.name/post/git_commit_log/</link>
+      <pubDate>Mon, 18 May 2020 20:52:19 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/git_commit_log/</guid>
+      <description>&lt;p&gt;传统的 Git 提交约定形式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install the USB remote communication of DMM6500 with pyvisa</title>
+      <link>http://liubin.name/post/install-the-usb-remote-communication-of-dmm6500-with-pyvisa/</link>
+      <pubDate>Mon, 16 Mar 2020 22:39:05 +0800</pubDate>
+      
+      <guid>http://liubin.name/post/install-the-usb-remote-communication-of-dmm6500-with-pyvisa/</guid>
+      <description>&lt;p&gt;安装DMM6500数字万用表的USB远程控制教程&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>MRI_Recommended book</title>
