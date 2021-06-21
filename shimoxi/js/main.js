@@ -130,7 +130,8 @@ function loadDB(arrayBuffer) {
 
     resetTableList();
 
-    setTimeout(function () {
+//    setTimeout(function (SQL) {
+    initSqlJs().then(function(SQL){
         var tables;
         try {
 
