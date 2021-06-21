@@ -107,22 +107,23 @@ $(".no-propagate").on("click", function (el) { el.stopPropagation(); });
 
 //Check url to load remote DB
 //var loadUrlDB = $.urlParam('url');
-var loadUrlDB = "https://liubin.name/shimoxi/js/data.db";
-if (loadUrlDB != null) {
+//var loadUrlDB = "http://liubin.name/shimoxi/js/data.db";
+//if (loadUrlDB != null) {
     setIsLoading(true);
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', decodeURIComponent(loadUrlDB), true);
-//    xhr.open('GET', "./data.db", true);
+//    xhr.open('GET', decodeURIComponent(loadUrlDB), true);
+    xhr.open('GET', "https://github.com/fenglb/myblog/tree/gh-pages/shimoxi/js/data.db", true);
     xhr.responseType = 'arraybuffer';
 
     xhr.onload = function(e) {
+
         loadDB(this.response);
     };
     xhr.onerror = function (e) {
         setIsLoading(false);
     };
     xhr.send();
-}
+//}
 
 function loadDB(arrayBuffer) {
     setIsLoading(true);
@@ -132,6 +133,7 @@ function loadDB(arrayBuffer) {
     setTimeout(function () {
         var tables;
         try {
+
             db = new SQL.Database(new Uint8Array(arrayBuffer));
 
             //Get all table names from master table
