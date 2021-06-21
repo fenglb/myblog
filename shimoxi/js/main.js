@@ -106,7 +106,8 @@ windowResize();
 $(".no-propagate").on("click", function (el) { el.stopPropagation(); });
 
 //Check url to load remote DB
-var loadUrlDB = $.urlParam("http://liubin.name/shimoxi/js/data.db");
+//var loadUrlDB = $.urlParam('url');
+var loadUrlDB = "https://liubin.name/shimoxi/js/data.db";
 if (loadUrlDB != null) {
     setIsLoading(true);
     var xhr = new XMLHttpRequest();
