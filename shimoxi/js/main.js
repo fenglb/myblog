@@ -111,7 +111,7 @@ $(".no-propagate").on("click", function (el) { el.stopPropagation(); });
     setIsLoading(true);
     var xhr = new XMLHttpRequest();
 //    xhr.open('GET', decodeURIComponent(loadUrlDB), true);
-    xhr.open('GET', "http://liubin.name/shimoxi/data.db", true);
+    xhr.open('GET', "./data.db", true);
     xhr.responseType = 'arraybuffer';
 
     xhr.onload = function(e) {
