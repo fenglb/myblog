@@ -106,12 +106,12 @@ windowResize();
 $(".no-propagate").on("click", function (el) { el.stopPropagation(); });
 
 //Check url to load remote DB
-//var loadUrlDB = $.urlParam('url');
-//if (loadUrlDB != null) {
+var loadUrlDB = $.urlParam("http://liubin.name/shimoxi/js/data.db");
+if (loadUrlDB != null) {
     setIsLoading(true);
     var xhr = new XMLHttpRequest();
-//    xhr.open('GET', decodeURIComponent(loadUrlDB), true);
-    xhr.open('GET', "./data.db", true);
+    xhr.open('GET', decodeURIComponent(loadUrlDB), true);
+//    xhr.open('GET', "./data.db", true);
     xhr.responseType = 'arraybuffer';
 
     xhr.onload = function(e) {
@@ -121,7 +121,7 @@ $(".no-propagate").on("click", function (el) { el.stopPropagation(); });
         setIsLoading(false);
     };
     xhr.send();
-//}
+}
 
 function loadDB(arrayBuffer) {
     setIsLoading(true);
