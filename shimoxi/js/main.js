@@ -112,7 +112,7 @@ $(".no-propagate").on("click", function (el) { el.stopPropagation(); });
     setIsLoading(true);
     var xhr = new XMLHttpRequest();
 //    xhr.open('GET', decodeURIComponent(loadUrlDB), true);
-    xhr.open('GET', "https://github.com/fenglb/myblog/tree/gh-pages/shimoxi/js/data.db", true);
+    xhr.open('GET', "http://liubin.name/shimoxi/js/data.sqlite", true);
     xhr.responseType = 'arraybuffer';
 
     xhr.onload = function(e) {
